@@ -11,6 +11,7 @@ import logging
 import joblib
 import pandas as pd
 from flask import Flask, request, jsonify
+from prometheus_flask_exporter import PrometheusMetrics
 
 from preprocess import NUMERIC_FEATURES, CATEGORICAL_FEATURES
 
@@ -25,6 +26,8 @@ logging.basicConfig(
 logger = logging.getLogger("heart-api")
 
 app = Flask(__name__)
+metrics = PrometheusMetrics(app)
+
 _model = None
 
 
