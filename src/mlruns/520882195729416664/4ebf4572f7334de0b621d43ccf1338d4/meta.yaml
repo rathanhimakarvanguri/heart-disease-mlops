@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/rathan/Downloads/heart-mlops/src/mlruns/520882195729416664/4ebf4572f7334de0b621d43ccf1338d4/artifacts
+end_time: 1783755506385
+entry_point_name: ''
+experiment_id: '520882195729416664'
+lifecycle_stage: active
+run_id: 4ebf4572f7334de0b621d43ccf1338d4
+run_name: random_forest
+run_uuid: 4ebf4572f7334de0b621d43ccf1338d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783755504148
+status: 3
+tags: []
+user_id: rathan
