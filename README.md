@@ -3,12 +3,6 @@
 End-to-end pipeline: data → EDA → model training (MLflow-tracked) →
 packaging → CI/CD → Docker → Kubernetes → monitoring.
 
-> **Before submitting:** this scaffold is a *starting point*, not a
-> final answer — adapt the EDA commentary, try different models/params,
-> restructure the API or manifests to your taste. The assignment's
-> academic-integrity note flags near-identical submissions, so make
-> the architecture decisions and write-up genuinely your own.
-
 ## 1. Setup
 
 ```bash
