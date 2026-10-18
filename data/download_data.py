@@ -6,8 +6,7 @@ Usage:
 
 If the UCI server is unreachable (offline/firewalled environment),
 falls back to sklearn's synthetic generator so the rest of the
-pipeline can still be exercised end-to-end. Replace with the real
-CSV before final submission.
+pipeline can still be exercised end-to-end.
 """
 import os
 import pandas as pd
